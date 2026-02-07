@@ -7,7 +7,7 @@ export const calculateBill = (prevReading, presentReading, meterHP, subsidyUnits
     // ====== 1. FULL BILL CALCULATION (ALL UNITS) ======
     const fixedRate = 145;
     const energyRate = 5.80;
-    const fppcaRate = -0.60;
+    const fppcaRate = -0.50;
     const pgSurchargeRate = 0.36;
     const taxRate = 9;
     
