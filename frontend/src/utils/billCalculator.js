@@ -101,8 +101,8 @@ export const calculateBill = (prevReading, presentReading, meterHP, subsidyUnits
             fppcaRate,
             pgSurchargeRate,
             taxRate,
-            subsidyEnergyRate: 5.90,
-            subsidyFppcaRate: 0.09
+            subsidyEnergyRate: 5.80,
+            subsidyFppcaRate: -0.50
         }
     };
 };
