@@ -31,8 +31,8 @@ export const calculateBill = (prevReading, presentReading, meterHP, subsidyUnits
     
     if (userSubsidyUnits > 0) {
         // Different rates for subsidy calculation
-        const subsidyEnergyRate = 5.90;
-        const subsidyFppcaRate = 0.09;
+        const subsidyEnergyRate = 5.80;
+        const subsidyFppcaRate = -0.50;
         
         // Calculate subsidy for user entered units (CAN BE MORE THAN CONSUMPTION)
         const subsidyFixedCharges = meterHP * fixedRate; // Same fixed rate
